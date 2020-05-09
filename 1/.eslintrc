@@ -1,0 +1,22 @@
+{
+    "extends": "standard",
+    
+    "parserOptions": {
+        "ecmaVersion": 2015
+    },
+
+    "env": {
+        "es6": true
+    },
+
+    "plugins": [
+        "ie11"
+    ],
+
+    "rules": {
+        "ie11/no-collection-args": [ "error" ],
+        "ie11/no-for-in-const": [ "error" ],
+        "ie11/no-loop-func": [ "warn" ],
+        "ie11/no-weak-collections": [ "error" ]
+    }
+}
